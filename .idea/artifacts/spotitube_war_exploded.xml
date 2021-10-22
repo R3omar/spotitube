@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="spotitube:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/spotitube_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spotitube" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.microsoft.sqlserver:mssql-jdbc:9.4.0.jre11" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="spotitube/web/Web" />
+    </root>
+  </artifact>
+</component>
